@@ -1,0 +1,21 @@
+# Python / local environments
+.venv/
+dashboard/.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw EDA data does NOT belong in this repo: too large for GitHub (train/test
+# parquet files can be hundreds of MB), and the notebooks read them from
+# Kaggle / Google Drive, not from a local copy. Only the small exported
+# dashboard files (dashboard/data/*.csv) are tracked.
+*.parquet
+
+# The API's drift-monitoring log (api/drift.py) -- runtime data generated
+# by running the container (see docker-compose.yml's logs/ volume), not
+# source. Each teammate/deployment accumulates their own.
+logs/
