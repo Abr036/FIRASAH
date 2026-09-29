@@ -14,7 +14,7 @@ Data Science Bootcamp capstone · SDA &amp; WeCloudData
 ---
 
 ![Firasa project summary](docs/summary.png)
-
+https://abr036.github.io/FIRASAH/Firasa_early_warning_system_for_credit_risk-main/dashboard/ 
 ## Overview
 
 Banks usually learn that a customer is in trouble when a payment is already missed. Firasa
